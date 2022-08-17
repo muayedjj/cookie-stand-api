@@ -1,24 +1,55 @@
-# api-quick-start
+# drf-api-permissions-postgres
 
-Template Project for starting up CRUD API with Django Rest Framework
 
-## Customization Steps
+## Project: Cookie Stand
 
-- DO NOT migrate yet
-- add additional dependencies as needed
-  - Re-export requirements.txt as needed
-- change `things` folder to the app name of your choice
-- Search through entire code base for `Thing`,`Things` and `things` to modify code to use your resource
-  - `project/settings.py`
-  - `project/urls.py`
-  - App's files
-    - `views.py`
-    - `urls.py`
-    - `admin.py`
-    - `serializers.py`
-    - `permissions.py`
-- Update ThingModel with fields you need
-  - Make sure to update other modules that would be affected by Model customizations. E.g. serializers, tests, etc.
-- Rename `project/.env.sample` to `.env` and update as needed
-- Run makemigrations and migrate commands
-- Optional: Update `api_tester.py`
+### Author: Muayad Al Shareef
+
+## LAB: Permissions & Postgresql - Class 34
+
+### [_Resources_](https://canvas.instructure.com/courses/4839248/assignments/30188507)
+#### [back-end server url](https://sugar-rush-api.herokuapp.com/api/v1/sugar_rush/)
+#### <!-- front-end application (when applicable) -->
+
+[//]: # (Setup)
+
+[//]: # (.env requirements &#40;where applicable&#41;)
+
+[//]: # (i.e.)
+
+[//]: # ()
+[//]: # (PORT - Port Number)
+
+[//]: # (DATABASE_URL - URL to the running Postgres instance/db)
+
+[//]: # (How to initialize/run your application &#40;where applicable&#41;)
+
+## Code
+
+### [`Project Settings`](books_library/settings.py)
+
+### [`Project URLs`](books_library/urls.py)
+
+### [`App Views`](books/views.py)
+
+### [`App URLs`](books/urls.py)
+
+### [`App Models`](books/models.py)
+
+### [`Account Tests`](books/tests.py)
+
+### [`Account Models`](books/models.py)
+
+### [`App Permissions`](books/permissions.py)
+
+[//]: # ([Test]&#40;./tests/test_series.py&#41;)
+
+[//]: # (How to use your library &#40;where applicable&#41;)
+
+[//]: # (Tests)
+
+[//]: # (How do you run tests?)
+
+[//]: # (Any tests of note?)
+
+[//]: # (Describe any tests that you did not complete, skipped, etc)
