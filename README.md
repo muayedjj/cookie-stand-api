@@ -26,21 +26,21 @@
 
 ## Code
 
-### [`Project Settings`](books_library/settings.py)
+### [`Project Settings`](project/settings.py)
 
-### [`Project URLs`](books_library/urls.py)
+### [`Project URLs`](project/urls.py)
 
-### [`App Views`](books/views.py)
+### [`App Views`](sugar_rush/views.py)
 
-### [`App URLs`](books/urls.py)
+### [`App URLs`](sugar_rush/urls.py)
 
-### [`App Models`](books/models.py)
+### [`App Tests`](sugar_rush/tests.py)
 
-### [`Account Tests`](books/tests.py)
+### [`App Models`](sugar_rush/models.py)
 
-### [`Account Models`](books/models.py)
+### [`Account Models`](accounts/models.py)
 
-### [`App Permissions`](books/permissions.py)
+### [`App Permissions`](accounts/permissions.py)
 
 [//]: # ([Test]&#40;./tests/test_series.py&#41;)
 
